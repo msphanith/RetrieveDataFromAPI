@@ -2,7 +2,7 @@ import React from "react";
 
 class Retdata extends React.Component {
   componentDidMount() {
-    const apiUrl = "https://api.github.com/users/hacktivist123/repos";
+    const apiUrl = "API URL";
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => console.log("This is your data", data));
